@@ -17,9 +17,7 @@ namespace Library
             Console.WriteLine("\tВремя с первой загрузки ПК (сек):  {0}", Environment.TickCount / 1000);
             Console.WriteLine("\tИмя сетевого домена:  {0}", Environment.UserDomainName);
             Console.WriteLine();
-
             Console.WriteLine("Сведения о Процессоре:");
-            Console.ResetColor();
             Console.WriteLine("\tМодель процессора:  {0}", Environment.GetEnvironmentVariable("PROCESSOR_IDENTIFIER"));
             Console.WriteLine("\tРазрядность процессора:  {0}", Environment.GetEnvironmentVariable("PROCESSOR_ARCHITECTURE"));
             Console.WriteLine("\tНомер модели процессора:  {0}", Environment.GetEnvironmentVariable("PROCESSOR_LEVEL"));
